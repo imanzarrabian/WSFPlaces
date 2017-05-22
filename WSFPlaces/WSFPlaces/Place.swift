@@ -19,7 +19,7 @@ struct Place {
     
     init(json: [String: Any]) {
         //extracting data from json
-        id = json["id"] as! String
+        id = json["place_id"] as! String
         name = json["name"] as! String
         address = json["vicinity"] as! String
         

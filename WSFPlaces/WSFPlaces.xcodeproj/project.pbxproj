@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0F13DCDE1EAF2689001692E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13DCDD1EAF2689001692E3 /* Constants.swift */; };
 		0F13DCE21EAF2E43001692E3 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13DCE11EAF2E43001692E3 /* Place.swift */; };
+		0F34D7521ED33BFA008D6FA9 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F34D7511ED33BFA008D6FA9 /* Review.swift */; };
+		0F34D7541ED33EF6008D6FA9 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F34D7531ED33EF6008D6FA9 /* ReviewCell.swift */; };
 		0F3A6C4E1EB329BE00783A24 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3A6C4D1EB329BE00783A24 /* CoreLocation.framework */; };
 		0F49962E1EB34F300055CBE0 /* omts.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0F49962D1EB34F300055CBE0 /* omts.gpx */; };
 		0FAEBAA51EAF25100080ED96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAEBAA41EAF25100080ED96 /* AppDelegate.swift */; };
@@ -26,6 +28,8 @@
 /* Begin PBXFileReference section */
 		0F13DCDD1EAF2689001692E3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0F13DCE11EAF2E43001692E3 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		0F34D7511ED33BFA008D6FA9 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		0F34D7531ED33EF6008D6FA9 /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		0F3A6C4D1EB329BE00783A24 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		0F49962D1EB34F300055CBE0 /* omts.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = omts.gpx; sourceTree = "<group>"; };
 		0FAEBAA11EAF25100080ED96 /* WSFPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSFPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				0F13DCE11EAF2E43001692E3 /* Place.swift */,
+				0F34D7511ED33BFA008D6FA9 /* Review.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				0FF2AB3E1EB0A4A100576E1B /* PlaceCell.swift */,
+				0F34D7531ED33EF6008D6FA9 /* ReviewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -269,8 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FC7EEEC1EB1F6C5002759A7 /* PlaceDetailViewController.swift in Sources */,
+				0F34D7521ED33BFA008D6FA9 /* Review.swift in Sources */,
 				0FAEBAA71EAF25100080ED96 /* ViewController.swift in Sources */,
 				0FF2AB411EB0A8FA00576E1B /* MapViewController.swift in Sources */,
+				0F34D7541ED33EF6008D6FA9 /* ReviewCell.swift in Sources */,
 				0FF2AB3F1EB0A4A100576E1B /* PlaceCell.swift in Sources */,
 				0FAEBAA51EAF25100080ED96 /* AppDelegate.swift in Sources */,
 				0F13DCDE1EAF2689001692E3 /* Constants.swift in Sources */,
